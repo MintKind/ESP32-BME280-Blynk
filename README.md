@@ -1,7 +1,7 @@
 # ESP32-BME280-Blynk
 Simple arduino script that sends temperature, humidity, pressure and altitude to Blynk.cloud
 
-# Setup #
+# Setup - Software
 1. Setup a template on Blynk.cloud
 2. Add 4 datastreams
   - V0 = Temp (Double °C)
@@ -14,3 +14,6 @@ Simple arduino script that sends temperature, humidity, pressure and altitude to
 6. Change the SSID and password in the script
 7. Upload script
 8. Enjoy
+
+# Setup - Hardware
+ESP32 --- BME 280
